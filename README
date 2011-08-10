@@ -1,0 +1,6 @@
+Code for my first arduino project: binary clock.
+
+The clock is built with:
+- PFC8563 RTC 
+- 3 shift registers (74HC595)
+- two buttons for setting the time
