@@ -12,8 +12,8 @@ void setup() {
   pinMode(latchPin, OUTPUT);
   pinMode(clockPin, OUTPUT);
   pinMode(dataPin, OUTPUT);
-  pinMode(hourButtonPin, OUTPUT);
-  pinMode(minuteButtonPin, OUTPUT);
+  pinMode(hourButtonPin, INPUT);
+  pinMode(minuteButtonPin, INPUT);
   Wire.begin();
 //  Serial.begin(115200);
   initClock() ;
